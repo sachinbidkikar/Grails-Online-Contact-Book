@@ -16,7 +16,7 @@ class Member {
     Date lastUpdated
 
     static constraints = {
-        email(email: true, nullable: false, unique: true, blank: false)
+        email(email: true, null: false, unique: true, blank: false)
         password(blank: false)
         lastName(nullable: true)
         identityHash(nullable: true)
